@@ -1,15 +1,15 @@
 /* Link hint boxes */
 div > .vimiumHintMarker {
-  background: #282a36;
+  background: #232a2e;
   font-size: 12px;
-  border: 0.25em solid #ffb86c;
+  border: 0.25em solid #a7c080;
   border-radius: 0.34em;
   box-shadow: 0em 0.1em 0.6em 0.1em rgba(0, 0, 0, 0.4);
 }
 
 /* Link hint text */
 div > .vimiumHintMarker span {
-  color: #f8f8f2;
+  color: #d3c6aa;
   font-size: inherit;
   text-shadow: none;
 }
@@ -21,8 +21,8 @@ div > .vimiumHintMarker > .matchingCharacter {
 
 /* HUD ("heads-up display") bar */
 div.vimiumHUD {
-  background: #282a36;
-  border: 1px solid #6272a4;
+  background: #232a2e;
+  border: 1px solid #a7c080;
 }
 
 div.vimiumHUD .vimiumHUDSearchArea {
@@ -44,7 +44,7 @@ div.vimiumHUD span#hud-match-count {
 }
 
 div.vimiumHUD .vimiumHUDSearchAreaInner {
-  color: #232a2e;  /* 'Comment' color */
+  color: #d3c6aa;  /* 'Comment' color */
 }
 
 #vomnibar{
